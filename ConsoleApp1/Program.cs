@@ -1,40 +1,28 @@
 ﻿using System;
+using System.Globalization;
 
-namespace Course
+namespace ConsoleApp1
 {
     class Program
     {
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Digite três números:");
-            Console.Write("Número 1: ");
-            int n1 = int.Parse(Console.ReadLine());
-            Console.Write("Número 2: ");
-            int n2 = int.Parse(Console.ReadLine());
-            Console.Write("Número 3: ");
-            int n3 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite os lados do triangulo: ");
+            Console.Write("Lado 1: ");
+            double n1 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.Write("Lado 2: ");
+            double n2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.Write("Lado 3: ");
+            double n3 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            double result = Maior(n1, n2, n3);
-            Console.WriteLine(result);
-        }
+            Triangulo triangulo = new Triangulo();
+            triangulo.A = n1;
+            triangulo.B = n2;
+            triangulo.C = n3;
 
-        static int Maior(int a, int b, int c)
-        {
-            int m;
-            if(a>b && a > c)
-            {
-                m = a;
-            }else if(b > a && b > c)
-            {
-                m = b;
-            }
-            else
-            {
-                m = c;
-            }
-
-            return m;
+            Console.WriteLine(triangulo.Area());
+            Console.WriteLine(triangulo.ToString());
         }
     }
 }
