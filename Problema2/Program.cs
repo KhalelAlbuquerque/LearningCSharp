@@ -21,10 +21,8 @@ namespace Problema2
             qtd = int.Parse(Console.ReadLine());
 
 
-            Produto produto = new Produto();
-            produto.Nome = nome;
-            produto.Preco = preco;
-            produto.Qtd = qtd;
+            Produto produto = new Produto(nome, preco, qtd);
+            Produto p3 = new Produto { Nome = "TV", Preco = 20.0, Qtd = 20, };
 
             Console.WriteLine("Seu produto: " + produto);
 

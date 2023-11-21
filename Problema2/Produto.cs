@@ -12,6 +12,20 @@ namespace Problema2
         public double Preco;
         public int Qtd;
 
+        public Produto() {
+            Qtd = 10;
+        }
+
+        public Produto(string nome, double preco) : this()
+        {
+            Nome = nome;
+            Preco = preco;
+        }
+
+        public Produto(string nome, double preco, int qtd) : this(nome, preco)
+        {
+            int Qtd = qtd;
+        }
 
         public double ValorTotalEmEstoque()
         {
