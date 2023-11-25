@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixExercise", "MatrixExe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixAroundNumber", "MatrixAroundNumber\MatrixAroundNumber.csproj", "{34B4B7E0-A5F9-4FDE-A806-80EF8CFA895E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentalNoInterface", "CarRentalNoInterface\CarRentalNoInterface.csproj", "{16B35C94-BCAD-41D0-964D-5E9A1C8BBAED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{34B4B7E0-A5F9-4FDE-A806-80EF8CFA895E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34B4B7E0-A5F9-4FDE-A806-80EF8CFA895E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34B4B7E0-A5F9-4FDE-A806-80EF8CFA895E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B35C94-BCAD-41D0-964D-5E9A1C8BBAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B35C94-BCAD-41D0-964D-5E9A1C8BBAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B35C94-BCAD-41D0-964D-5E9A1C8BBAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B35C94-BCAD-41D0-964D-5E9A1C8BBAED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
