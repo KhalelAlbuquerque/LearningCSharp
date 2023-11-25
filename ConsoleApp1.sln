@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encapsulation", "Encapsulat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioConstrutores", "ExercicioConstrutores\ExercicioConstrutores.csproj", "{3394D38C-5483-46C4-8674-EA208CDFA010}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{12F732F0-8CD0-4FE7-A89A-6EFF341C38AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3394D38C-5483-46C4-8674-EA208CDFA010}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3394D38C-5483-46C4-8674-EA208CDFA010}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3394D38C-5483-46C4-8674-EA208CDFA010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F732F0-8CD0-4FE7-A89A-6EFF341C38AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F732F0-8CD0-4FE7-A89A-6EFF341C38AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F732F0-8CD0-4FE7-A89A-6EFF341C38AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F732F0-8CD0-4FE7-A89A-6EFF341C38AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

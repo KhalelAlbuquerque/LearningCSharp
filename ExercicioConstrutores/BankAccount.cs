@@ -16,12 +16,9 @@ namespace ExercicioConstrutores
         {
             this._accountNumber = accountNumb;
             this._accountOwner = accountOwn;
-            this.Value = 0;
         }
-        public BankAccount(string accountNumb, string accountOwn, double value)
+        public BankAccount(string accountNumb, string accountOwn, double value):this(accountNumb, accountOwn)
         {
-            this._accountNumber = accountNumb;
-            this._accountOwner = accountOwn;
             this.Value = value;
         }
 
@@ -30,15 +27,13 @@ namespace ExercicioConstrutores
             get { return _accountNumber; }
         }
 
+
         public string AccountOwner
         {
             get => _accountOwner;
             set
             {
-                if(_accountOwner != null)
-                {
-                    _accountOwner = value;
-                }
+                _accountOwner = value;
             }
         }
 

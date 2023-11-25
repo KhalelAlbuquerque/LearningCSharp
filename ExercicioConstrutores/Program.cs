@@ -10,7 +10,8 @@ namespace ConstructorExercise
             string accountNumber;
             string accountOwner;
             char optionDeposit;
-            double initialValue;
+            double initialValue = 0.0;
+            BankAccount conta;
 
             Console.Write("Digite o número da conta: ");
             accountNumber = Console.ReadLine();
@@ -22,22 +23,32 @@ namespace ConstructorExercise
             optionDeposit = char.Parse(Console.ReadLine());
 
 
-            Console.Write("Digite o valor de depósito: ");
-            initialValue = double.Parse(Console.ReadLine());
+            if(optionDeposit == char.Parse("s") | optionDeposit == char.Parse("S"))
+            {
+                Console.Write("Digite o valor de depósito: ");
+                initialValue = double.Parse(Console.ReadLine());
+                conta = new BankAccount(accountNumber, accountOwner, initialValue);
+            }
+            else
+            {
+                conta = new BankAccount(accountNumber, accountOwner);
+            }
 
-            BankAccount userAccount = new BankAccount(accountNumber, accountOwner, initialValue);
+            
 
-            Console.Write(userAccount.ToString());
+            Console.WriteLine(conta.ToString());
 
             Console.Write("Digite o valor de saque: ");
-            userAccount.removeValue(double.Parse(Console.ReadLine()));
+            conta.removeValue(double.Parse(Console.ReadLine()));
 
-            Console.WriteLine("Novo valor: " + userAccount.Value);
+            Console.WriteLine("Novo valor: " + conta.Value);
 
             Console.Write("Digite o valor de deposito: ");
-            userAccount.addValue(double.Parse(Console.ReadLine()));
+            conta.addValue(double.Parse(Console.ReadLine()));
 
-            Console.WriteLine("Novo valor: " + userAccount.Value);
+            Console.WriteLine("Novo valor: " + conta.Value);
+
+            
 
         }
     }
