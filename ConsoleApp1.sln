@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRentalNoInterface", "Car
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentalWithInterface", "CarRentalWithInterface\CarRentalWithInterface.csproj", "{A8DC1A08-A02C-42B9-9CEF-906E8ADB545A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MontlyInstallments", "MontlyInstallments\MontlyInstallments.csproj", "{7D1B5833-3594-47A0-8CBD-B4F92D3EAEC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{A8DC1A08-A02C-42B9-9CEF-906E8ADB545A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8DC1A08-A02C-42B9-9CEF-906E8ADB545A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8DC1A08-A02C-42B9-9CEF-906E8ADB545A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D1B5833-3594-47A0-8CBD-B4F92D3EAEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1B5833-3594-47A0-8CBD-B4F92D3EAEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1B5833-3594-47A0-8CBD-B4F92D3EAEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1B5833-3594-47A0-8CBD-B4F92D3EAEC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
